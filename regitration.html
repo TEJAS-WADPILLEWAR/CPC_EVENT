@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regitration Form</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title">
+      Regitration Form
+    </div>
+    <div class="form">
+      <div class="input_field">
+        <label>First Name</label>
+        <input type="text" class="input" required>
+      </div>
+      <div class="input_field">
+        <label>Last Name</label>
+        <input type="text" class="input" required>
+      </div>
+      <div class="input_field">
+        <label>Roll Number</label>
+        <input type="text" class="input" required>
+      </div>
+      <div class="input_field">
+        <label>Event</label>
+        <div class="custom_select" required>
+          <select>
+
+            <!-- Event Information Section -->
+            <option value="" required>Select</option>
+            <option value="Dance Compitation">Dance Compitation</option>
+            <option value="Drawing Compitation">Drawing Compitation</option>
+            <option value="Independence day speech">Independence day speech</option>
+            <option value="Republic day speech">Republic day speech</option>
+            <option value="Singing compiation ">Singing compiation </option>
+          </select>
+        </div>
+      </div>
+      <div class="input_field">
+        <label>Single/Group</label>
+        <div class="custom_select" required>
+          <select>
+            <option value="" required>Select</option>
+            <option value="Single">Single</option>
+            <option value="Group">Group</option>
+
+          </select>
+        </div>
+      </div>
+      <div class="input_field">
+        <label>Phone Number</label>
+        <input type="text" class="input" required>
+      </div>
+      <div class="input_field">
+        <label>Performance</label>
+        <textarea name="" id="" cols="26" rows="5"
+          placeholder="What's your performance? (Dance name, Song name, Speech topic, etc.)" required></textarea>
+      </div>
+      <div class="input_field">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
